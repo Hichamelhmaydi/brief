@@ -1,0 +1,84 @@
+form {
+    position: relative;
+    left:40%;
+}
+input{
+    display: block;
+    position:relative;
+    bottom:173px;
+    right:40px;
+    border:1px solid #fff;
+    outline:none;
+    border-radius:10px;
+    width:50%;
+    padding:20px;
+    background:none;
+    
+}
+input::placeholder {
+    font: 1rem/3 sans-serif;
+    padding-left:20px;
+    color:black;
+}
+.infoform{
+    width: 500px;
+    height:500px;
+    background-color:none;
+    margin:70px ;
+    position:relative;
+    left:30%;
+    backdrop-filter: blur(5px);
+    border-radius:40px;
+}
+.img-per{
+    width:50px;
+    height:50px;
+    display: block;
+    position:relative;
+    left:100px;
+    top:24px;
+}
+.img-tele{
+    width:40px;
+    height:40px;
+    display: block;
+    position:relative;
+    left:100px;
+    top:67px;
+}
+.img-cal{
+    width:50px;
+    height:50px;
+    display: block;
+    position:relative;
+    left:100px;
+    top:116px;
+}
+.img-email{
+    width:50px;
+    height:50px;
+    display: block;
+    position:relative;
+    left:100px;
+    top:159px;
+}
+.sub{
+    position:relative;
+    bottom:150px;
+    right: 66px;
+    padding:20px;
+    width: 286px;
+    height: 67px;
+    font-size:20px;
+    background-color:#D91656;
+    outline:none;
+    border: 1px solid #D91656;
+    border-radius:20px;
+}
+.sub:hover{
+    background-color:#EE66A6;
+    outline:none;
+    border: 1px solid #EE66A6;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px  #FFEB55;
+}
